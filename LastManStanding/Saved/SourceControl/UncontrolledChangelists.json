@@ -14,9 +14,10 @@
 				"/Users/eungyukim/Documents/GitHub/UE5_LastManStanding/LastManStanding/Content/Assets/Input/IMC_Default.uasset",
 				"/Users/eungyukim/Documents/GitHub/UE5_LastManStanding/LastManStanding/Content/Blueprints/BP_PlayerController.uasset",
 				"/Users/eungyukim/Documents/GitHub/UE5_LastManStanding/LastManStanding/Content/Assets/Input/Actions/IA_Move.uasset",
+				"/Users/eungyukim/Documents/GitHub/UE5_LastManStanding/LastManStanding/Content/Assets/Animations/ABP_Stickman.uasset",
+				"/Users/eungyukim/Documents/GitHub/UE5_LastManStanding/LastManStanding/Content/Assets/Input/Actions/IA_Jump.uasset",
 				"/Users/eungyukim/Documents/GitHub/UE5_LastManStanding/LastManStanding/Content/Assets/Animations/NewAnimBlueprint.uasset",
-				"/Users/eungyukim/Documents/GitHub/UE5_LastManStanding/LastManStanding/Content/Assets/Animations/ABP_.uasset",
-				"/Users/eungyukim/Documents/GitHub/UE5_LastManStanding/LastManStanding/Content/Assets/Animations/ABP_Stickman.uasset"
+				"/Users/eungyukim/Documents/GitHub/UE5_LastManStanding/LastManStanding/Content/Assets/Animations/ABP_.uasset"
 			]
 		}
 	]
