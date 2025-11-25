@@ -1,4 +1,14 @@
 {
 	"Targets": [
+		{
+			"Name": "LastManStanding",
+			"Path": "../Source/LastManStanding.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "LastManStandingEditor",
+			"Path": "../Source/LastManStandingEditor.Target.cs",
+			"Type": "Editor"
+		}
 	]
 }

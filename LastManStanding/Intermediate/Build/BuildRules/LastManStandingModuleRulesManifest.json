@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"/Users/eungyukim/Documents/GitHub/UE5_LastManStanding/LastManStanding/Source/LastManStanding/LastManStanding.Build.cs",
+		"/Users/eungyukim/Documents/GitHub/UE5_LastManStanding/LastManStanding/Source/LastManStanding.Target.cs",
+		"/Users/eungyukim/Documents/GitHub/UE5_LastManStanding/LastManStanding/Source/LastManStandingEditor.Target.cs"
+	],
+	"EngineVersion": "5.7.0"
+}

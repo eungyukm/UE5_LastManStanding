@@ -1,0 +1,24 @@
+-fdiagnostics-absolute-paths
+-fdiagnostics-color
+-L/usr/lib/swift
+-arch arm64
+-isysroot "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk"
+-target arm64-apple-macos14.00
+-dead_strip
+-dynamiclib
+-headerpad_max_install_names
+-current_version 4753.73.91
+-compatibility_version 5.7.0
+-rpath @loader_path/ -rpath @executable_path/
+-undefined dynamic_lookup
+-Wl,-no_fixup_chains
+-install_name "@rpath/UnrealEditor-LastManStanding.dylib"
+"/Users/eungyukim/Documents/GitHub/UE5_LastManStanding/LastManStanding/Intermediate/Build/Mac/arm64/UnrealEditor/Development/LastManStanding/Module.LastManStanding.gen.cpp.o"
+"/Users/eungyukim/Documents/GitHub/UE5_LastManStanding/LastManStanding/Intermediate/Build/Mac/arm64/UnrealEditor/Development/LastManStanding/LastManStanding.cpp.o"
+"/Users/eungyukim/Documents/GitHub/UE5_LastManStanding/LastManStanding/Intermediate/Build/Mac/arm64/UnrealEditor/Development/LastManStanding/LobbyWidget.cpp.o"
+"/Users/eungyukim/Documents/GitHub/UE5_LastManStanding/LastManStanding/Intermediate/Build/Mac/arm64/UnrealEditor/Development/LastManStanding/LobbyGameMode.cpp.o"
+"/Users/eungyukim/Documents/GitHub/UE5_LastManStanding/LastManStanding/Intermediate/Build/Mac/arm64/UnrealEditor/Development/LastManStanding/LobbyPlayerController.cpp.o"
+"/Users/eungyukim/Documents/GitHub/UE5_LastManStanding/LastManStanding/Intermediate/Build/Mac/arm64/UnrealEditor/Development/LastManStanding/LobbyHUD.cpp.o"
+"/Users/eungyukim/Documents/GitHub/UE5_LastManStanding/LastManStanding/Intermediate/Build/Mac/arm64/UnrealEditor/Development/LastManStanding/LobbyPlayerState.cpp.o"
+"/Users/eungyukim/Documents/GitHub/UE5_LastManStanding/LastManStanding/Intermediate/Build/Mac/arm64/UnrealEditor/Development/LastManStanding/PerModuleInline.gen.cpp.o"
+-o "/Users/eungyukim/Documents/GitHub/UE5_LastManStanding/LastManStanding/Intermediate/Mac/Stubs/arm64/Development/UnrealEditor-LastManStanding.dylib"
