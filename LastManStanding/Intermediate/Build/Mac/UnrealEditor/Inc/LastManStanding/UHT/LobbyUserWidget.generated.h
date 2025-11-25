@@ -15,8 +15,14 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class ALobbyPlayerState;
 
 // ********** Begin Class ULobbyUserWidget *********************************************************
+#define FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_UI_LobbyUserWidget_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execRefreshUI); \
+	DECLARE_FUNCTION(execSetInfo);
+
+
 struct Z_Construct_UClass_ULobbyUserWidget_Statics;
 LASTMANSTANDING_API UClass* Z_Construct_UClass_ULobbyUserWidget_NoRegister();
 
@@ -47,6 +53,7 @@ public: \
 #define FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_UI_LobbyUserWidget_h_20_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
+	FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_UI_LobbyUserWidget_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
 	FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_UI_LobbyUserWidget_h_20_INCLASS_NO_PURE_DECLS \
 	FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_UI_LobbyUserWidget_h_20_ENHANCED_CONSTRUCTORS \
 private: \
