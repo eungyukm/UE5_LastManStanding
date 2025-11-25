@@ -13,5 +13,4 @@ UCLASS()
 class LASTMANSTANDING_API ULobbyWidget : public UUserWidget
 {
 	GENERATED_BODY()
-	
 };
