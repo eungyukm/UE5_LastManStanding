@@ -4376,11 +4376,42 @@
   Runtime/Core/Public/Misc/QualifiedFrameTime.h \
   ../Intermediate/Build/Mac/UnrealEditor/Inc/UMG/UHT/UserWidget.generated.h \
   /Users/eungyukim/Documents/GitHub/UE5_LastManStanding/LastManStanding/Intermediate/Build/Mac/UnrealEditor/Inc/LastManStanding/UHT/LobbyWidget.generated.h \
+  Runtime/Engine/Classes/Kismet/GameplayStatics.h \
+  Runtime/Engine/Classes/Engine/EngineTypes.h \
+  Runtime/Engine/Classes/GameFramework/Actor.h \
+  Runtime/Engine/Public/CollisionQueryParams.h \
+  Runtime/Engine/Classes/Engine/LatentActionManager.h \
+  Runtime/Engine/Classes/Kismet/KismetSystemLibrary.h \
+  Runtime/CoreUObject/Public/UObject/UnrealType.h \
+  Runtime/CoreUObject/Public/UObject/SoftObjectPtr.h \
+  Runtime/CoreUObject/Public/UObject/PropertyAccessUtil.h \
+  Runtime/Core/Public/CoreGlobals.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/CoreUObject/UHT/PropertyAccessUtil.generated.h \
+  Runtime/CoreUObject/Public/UObject/TopLevelAssetPath.h \
+  Runtime/Engine/Classes/Engine/CollisionProfile.h \
+  Runtime/CoreUObject/Public/AssetRegistry/ARFilter.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/KismetSystemLibrary.generated.h \
+  Runtime/Engine/Classes/Sound/DialogueTypes.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/DialogueTypes.generated.h \
+  Runtime/Engine/Classes/Kismet/GameplayStaticsTypes.h \
+  Runtime/Engine/Classes/Engine/HitResult.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/GameplayStaticsTypes.generated.h \
+  Runtime/Engine/Classes/Particles/WorldPSCPool.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/GameplayStatics.generated.h \
   /Users/eungyukim/Documents/GitHub/UE5_LastManStanding/LastManStanding/Source/LastManStanding/Lobby/Contents/LobbyPlayerState.h \
   Runtime/Engine/Classes/GameFramework/PlayerState.h \
-  Runtime/Engine/Classes/GameFramework/Actor.h \
   Runtime/CoreOnline/Public/Online/CoreOnline.h \
   Runtime/Engine/Classes/GameFramework/OnlineReplStructs.h \
   Runtime/Engine/Classes/GameFramework/Info.h \
   ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/PlayerState.generated.h \
-  /Users/eungyukim/Documents/GitHub/UE5_LastManStanding/LastManStanding/Intermediate/Build/Mac/UnrealEditor/Inc/LastManStanding/UHT/LobbyPlayerState.generated.h
+  /Users/eungyukim/Documents/GitHub/UE5_LastManStanding/LastManStanding/Intermediate/Build/Mac/UnrealEditor/Inc/LastManStanding/UHT/LobbyPlayerState.generated.h \
+  Runtime/Engine/Classes/GameFramework/GameState.h \
+  Runtime/Engine/Classes/GameFramework/GameStateBase.h \
+  Runtime/Engine/Classes/GameFramework/GameModeBase.h \
+  Runtime/Engine/Classes/GameFramework/Pawn.h \
+  Runtime/Engine/Classes/Engine/ServerStatReplicator.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/ServerStatReplicator.generated.h \
+  Runtime/Net/Core/Public/Net/Core/Connection/NetEnums.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/GameModeBase.generated.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/GameStateBase.generated.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/GameState.generated.h

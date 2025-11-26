@@ -15,12 +15,18 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class ALobbyPlayerState;
 
 // ********** Begin Class ULobbyWidget *************************************************************
+#define FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_UI_LobbyWidget_h_21_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execGetLobbyPlayerStateAtIndex); \
+	DECLARE_FUNCTION(execGetLobbyPlayerStates);
+
+
 struct Z_Construct_UClass_ULobbyWidget_Statics;
 LASTMANSTANDING_API UClass* Z_Construct_UClass_ULobbyWidget_NoRegister();
 
-#define FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_UI_LobbyWidget_h_15_INCLASS_NO_PURE_DECLS \
+#define FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_UI_LobbyWidget_h_21_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesULobbyWidget(); \
 	friend struct ::Z_Construct_UClass_ULobbyWidget_Statics; \
@@ -31,7 +37,7 @@ public: \
 	DECLARE_SERIALIZER(ULobbyWidget)
 
 
-#define FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_UI_LobbyWidget_h_15_ENHANCED_CONSTRUCTORS \
+#define FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_UI_LobbyWidget_h_21_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ULobbyWidget(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -43,12 +49,13 @@ public: \
 	NO_API virtual ~ULobbyWidget();
 
 
-#define FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_UI_LobbyWidget_h_12_PROLOG
-#define FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_UI_LobbyWidget_h_15_GENERATED_BODY \
+#define FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_UI_LobbyWidget_h_18_PROLOG
+#define FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_UI_LobbyWidget_h_21_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_UI_LobbyWidget_h_15_INCLASS_NO_PURE_DECLS \
-	FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_UI_LobbyWidget_h_15_ENHANCED_CONSTRUCTORS \
+	FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_UI_LobbyWidget_h_21_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_UI_LobbyWidget_h_21_INCLASS_NO_PURE_DECLS \
+	FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_UI_LobbyWidget_h_21_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
