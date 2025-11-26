@@ -52,6 +52,47 @@ UFunction* Z_Construct_UFunction_ALobbyPlayerState_BP_RefreshLobbyUI()
 }
 // ********** End Class ALobbyPlayerState Function BP_RefreshLobbyUI *******************************
 
+// ********** Begin Class ALobbyPlayerState Function Multicast_Ready *******************************
+static FName NAME_ALobbyPlayerState_Multicast_Ready = FName(TEXT("Multicast_Ready"));
+void ALobbyPlayerState::Multicast_Ready()
+{
+	UFunction* Func = FindFunctionChecked(NAME_ALobbyPlayerState_Multicast_Ready);
+	ProcessEvent(Func,NULL);
+}
+struct Z_Construct_UFunction_ALobbyPlayerState_Multicast_Ready_Statics
+{
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Lobby/Contents/LobbyPlayerState.h" },
+	};
+#endif // WITH_METADATA
+
+// ********** Begin Function Multicast_Ready constinit property declarations ***********************
+// ********** End Function Multicast_Ready constinit property declarations *************************
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ALobbyPlayerState_Multicast_Ready_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_ALobbyPlayerState, nullptr, "Multicast_Ready", 	nullptr, 
+	0, 
+0,
+RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00024CC0, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ALobbyPlayerState_Multicast_Ready_Statics::Function_MetaDataParams), Z_Construct_UFunction_ALobbyPlayerState_Multicast_Ready_Statics::Function_MetaDataParams)},  };
+UFunction* Z_Construct_UFunction_ALobbyPlayerState_Multicast_Ready()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ALobbyPlayerState_Multicast_Ready_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(ALobbyPlayerState::execMulticast_Ready)
+{
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->Multicast_Ready_Implementation();
+	P_NATIVE_END;
+}
+// ********** End Class ALobbyPlayerState Function Multicast_Ready *********************************
+
 // ********** Begin Class ALobbyPlayerState Function OnRep_NickNameChange **************************
 struct Z_Construct_UFunction_ALobbyPlayerState_OnRep_NickNameChange_Statics
 {
@@ -181,12 +222,14 @@ struct Z_Construct_UClass_ALobbyPlayerState_Statics
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 // ********** End Class ALobbyPlayerState constinit property declarations **************************
 	static constexpr UE::CodeGen::FClassNativeFunction Funcs[] = {
+		{ .NameUTF8 = UTF8TEXT("Multicast_Ready"), .Pointer = &ALobbyPlayerState::execMulticast_Ready },
 		{ .NameUTF8 = UTF8TEXT("OnRep_NickNameChange"), .Pointer = &ALobbyPlayerState::execOnRep_NickNameChange },
 		{ .NameUTF8 = UTF8TEXT("RefreshLobbyUI"), .Pointer = &ALobbyPlayerState::execRefreshLobbyUI },
 	};
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
 		{ &Z_Construct_UFunction_ALobbyPlayerState_BP_RefreshLobbyUI, "BP_RefreshLobbyUI" }, // 3749943093
+		{ &Z_Construct_UFunction_ALobbyPlayerState_Multicast_Ready, "Multicast_Ready" }, // 3907170852
 		{ &Z_Construct_UFunction_ALobbyPlayerState_OnRep_NickNameChange, "OnRep_NickNameChange" }, // 159117458
 		{ &Z_Construct_UFunction_ALobbyPlayerState_RefreshLobbyUI, "RefreshLobbyUI" }, // 3617284097
 	};
@@ -263,10 +306,10 @@ ALobbyPlayerState::~ALobbyPlayerState() {}
 struct Z_CompiledInDeferFile_FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_Contents_LobbyPlayerState_h__Script_LastManStanding_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ALobbyPlayerState, ALobbyPlayerState::StaticClass, TEXT("ALobbyPlayerState"), &Z_Registration_Info_UClass_ALobbyPlayerState, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ALobbyPlayerState), 1267224305U) },
+		{ Z_Construct_UClass_ALobbyPlayerState, ALobbyPlayerState::StaticClass, TEXT("ALobbyPlayerState"), &Z_Registration_Info_UClass_ALobbyPlayerState, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ALobbyPlayerState), 3449782350U) },
 	};
 }; // Z_CompiledInDeferFile_FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_Contents_LobbyPlayerState_h__Script_LastManStanding_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_Contents_LobbyPlayerState_h__Script_LastManStanding_3086042070{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_Contents_LobbyPlayerState_h__Script_LastManStanding_742698362{
 	TEXT("/Script/LastManStanding"),
 	Z_CompiledInDeferFile_FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_Contents_LobbyPlayerState_h__Script_LastManStanding_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_Contents_LobbyPlayerState_h__Script_LastManStanding_Statics::ClassInfo),
 	nullptr, 0,

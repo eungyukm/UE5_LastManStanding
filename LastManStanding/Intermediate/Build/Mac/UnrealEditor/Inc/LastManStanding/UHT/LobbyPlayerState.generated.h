@@ -18,8 +18,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Class ALobbyPlayerState ********************************************************
 #define FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_Contents_LobbyPlayerState_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	virtual void Multicast_Ready_Implementation(); \
 	DECLARE_FUNCTION(execOnRep_NickNameChange); \
-	DECLARE_FUNCTION(execRefreshLobbyUI);
+	DECLARE_FUNCTION(execRefreshLobbyUI); \
+	DECLARE_FUNCTION(execMulticast_Ready);
 
 
 #define FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_Contents_LobbyPlayerState_h_15_CALLBACK_WRAPPERS

@@ -2,3 +2,8 @@
 
 
 #include "LobbyGameMode.h"
+
+void ALobbyGameMode::TryStartGame()
+{
+	BP_TryStartGame();
+}

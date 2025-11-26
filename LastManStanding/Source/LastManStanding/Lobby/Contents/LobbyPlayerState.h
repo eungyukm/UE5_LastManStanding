@@ -18,6 +18,10 @@ public:
 	virtual void GetLifetimeReplicatedProps(TArray< FLifetimeProperty > & OutLifetimeProps) const override;
 
 public:
+	UFUNCTION(NetMulticast, Reliable)
+	void Multicast_Ready();
+	
+public:
 	UFUNCTION(BlueprintImplementableEvent)
 	void BP_RefreshLobbyUI();
 	

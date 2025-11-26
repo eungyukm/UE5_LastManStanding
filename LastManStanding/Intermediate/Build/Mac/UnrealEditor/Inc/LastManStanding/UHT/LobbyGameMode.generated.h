@@ -17,6 +17,11 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Class ALobbyGameMode ***********************************************************
+#define FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_Contents_LobbyGameMode_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execTryStartGame);
+
+
+#define FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_Contents_LobbyGameMode_h_15_CALLBACK_WRAPPERS
 struct Z_Construct_UClass_ALobbyGameMode_Statics;
 LASTMANSTANDING_API UClass* Z_Construct_UClass_ALobbyGameMode_NoRegister();
 
@@ -47,6 +52,8 @@ public: \
 #define FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_Contents_LobbyGameMode_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
+	FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_Contents_LobbyGameMode_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_Contents_LobbyGameMode_h_15_CALLBACK_WRAPPERS \
 	FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_Contents_LobbyGameMode_h_15_INCLASS_NO_PURE_DECLS \
 	FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_Contents_LobbyGameMode_h_15_ENHANCED_CONSTRUCTORS \
 private: \

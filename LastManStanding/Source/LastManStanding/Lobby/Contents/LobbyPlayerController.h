@@ -13,4 +13,11 @@ UCLASS()
 class LASTMANSTANDING_API ALobbyPlayerController : public APlayerController
 {
 	GENERATED_BODY()
+	
+public:
+	UFUNCTION(BlueprintCallable, Server, Reliable)
+	void Server_HandleReadyButton();
+	
+	UFUNCTION(BlueprintCallable, Server, Reliable)
+	void Server_HandleChangeUsername(const FText& InNickName);
 };

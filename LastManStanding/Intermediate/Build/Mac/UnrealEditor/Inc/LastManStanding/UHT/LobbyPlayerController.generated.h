@@ -17,6 +17,14 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Class ALobbyPlayerController ***************************************************
+#define FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_Contents_LobbyPlayerController_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	virtual void Server_HandleChangeUsername_Implementation(FText const& InNickName); \
+	virtual void Server_HandleReadyButton_Implementation(); \
+	DECLARE_FUNCTION(execServer_HandleChangeUsername); \
+	DECLARE_FUNCTION(execServer_HandleReadyButton);
+
+
+#define FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_Contents_LobbyPlayerController_h_15_CALLBACK_WRAPPERS
 struct Z_Construct_UClass_ALobbyPlayerController_Statics;
 LASTMANSTANDING_API UClass* Z_Construct_UClass_ALobbyPlayerController_NoRegister();
 
@@ -47,6 +55,8 @@ public: \
 #define FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_Contents_LobbyPlayerController_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
+	FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_Contents_LobbyPlayerController_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_Contents_LobbyPlayerController_h_15_CALLBACK_WRAPPERS \
 	FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_Contents_LobbyPlayerController_h_15_INCLASS_NO_PURE_DECLS \
 	FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_Contents_LobbyPlayerController_h_15_ENHANCED_CONSTRUCTORS \
 private: \

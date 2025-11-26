@@ -12,6 +12,12 @@ void ALobbyPlayerState::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& Ou
 	DOREPLIFETIME(ALobbyPlayerState, NickName);
 }
 
+void ALobbyPlayerState::Multicast_Ready_Implementation()
+{
+	Ready = true;
+	RefreshLobbyUI();
+}
+
 void ALobbyPlayerState::RefreshLobbyUI()
 {
 	BP_RefreshLobbyUI();

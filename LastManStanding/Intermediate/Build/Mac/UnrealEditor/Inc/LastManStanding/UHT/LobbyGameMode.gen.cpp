@@ -18,6 +18,75 @@ LASTMANSTANDING_API UClass* Z_Construct_UClass_ALobbyGameMode_NoRegister();
 UPackage* Z_Construct_UPackage__Script_LastManStanding();
 // ********** End Cross Module References **********************************************************
 
+// ********** Begin Class ALobbyGameMode Function BP_TryStartGame **********************************
+static FName NAME_ALobbyGameMode_BP_TryStartGame = FName(TEXT("BP_TryStartGame"));
+void ALobbyGameMode::BP_TryStartGame()
+{
+	UFunction* Func = FindFunctionChecked(NAME_ALobbyGameMode_BP_TryStartGame);
+	ProcessEvent(Func,NULL);
+}
+struct Z_Construct_UFunction_ALobbyGameMode_BP_TryStartGame_Statics
+{
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Lobby/Contents/LobbyGameMode.h" },
+	};
+#endif // WITH_METADATA
+
+// ********** Begin Function BP_TryStartGame constinit property declarations ***********************
+// ********** End Function BP_TryStartGame constinit property declarations *************************
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ALobbyGameMode_BP_TryStartGame_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_ALobbyGameMode, nullptr, "BP_TryStartGame", 	nullptr, 
+	0, 
+0,
+RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ALobbyGameMode_BP_TryStartGame_Statics::Function_MetaDataParams), Z_Construct_UFunction_ALobbyGameMode_BP_TryStartGame_Statics::Function_MetaDataParams)},  };
+UFunction* Z_Construct_UFunction_ALobbyGameMode_BP_TryStartGame()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ALobbyGameMode_BP_TryStartGame_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+// ********** End Class ALobbyGameMode Function BP_TryStartGame ************************************
+
+// ********** Begin Class ALobbyGameMode Function TryStartGame *************************************
+struct Z_Construct_UFunction_ALobbyGameMode_TryStartGame_Statics
+{
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Lobby/Contents/LobbyGameMode.h" },
+	};
+#endif // WITH_METADATA
+
+// ********** Begin Function TryStartGame constinit property declarations **************************
+// ********** End Function TryStartGame constinit property declarations ****************************
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ALobbyGameMode_TryStartGame_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_ALobbyGameMode, nullptr, "TryStartGame", 	nullptr, 
+	0, 
+0,
+RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ALobbyGameMode_TryStartGame_Statics::Function_MetaDataParams), Z_Construct_UFunction_ALobbyGameMode_TryStartGame_Statics::Function_MetaDataParams)},  };
+UFunction* Z_Construct_UFunction_ALobbyGameMode_TryStartGame()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ALobbyGameMode_TryStartGame_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(ALobbyGameMode::execTryStartGame)
+{
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->TryStartGame();
+	P_NATIVE_END;
+}
+// ********** End Class ALobbyGameMode Function TryStartGame ***************************************
+
 // ********** Begin Class ALobbyGameMode ***********************************************************
 FClassRegistrationInfo Z_Registration_Info_UClass_ALobbyGameMode;
 UClass* ALobbyGameMode::GetPrivateStaticClass()
@@ -64,7 +133,15 @@ struct Z_Construct_UClass_ALobbyGameMode_Statics
 
 // ********** Begin Class ALobbyGameMode constinit property declarations ***************************
 // ********** End Class ALobbyGameMode constinit property declarations *****************************
+	static constexpr UE::CodeGen::FClassNativeFunction Funcs[] = {
+		{ .NameUTF8 = UTF8TEXT("TryStartGame"), .Pointer = &ALobbyGameMode::execTryStartGame },
+	};
 	static UObject* (*const DependentSingletons[])();
+	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
+		{ &Z_Construct_UFunction_ALobbyGameMode_BP_TryStartGame, "BP_TryStartGame" }, // 4190962071
+		{ &Z_Construct_UFunction_ALobbyGameMode_TryStartGame, "TryStartGame" }, // 2624267931
+	};
+	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ALobbyGameMode>::IsAbstract,
 	};
@@ -80,11 +157,11 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_ALobbyGameMode_Statics:
 	"Game",
 	&StaticCppClassTypeInfo,
 	DependentSingletons,
-	nullptr,
+	FuncInfo,
 	nullptr,
 	nullptr,
 	UE_ARRAY_COUNT(DependentSingletons),
-	0,
+	UE_ARRAY_COUNT(FuncInfo),
 	0,
 	0,
 	0x009002ACu,
@@ -92,6 +169,8 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_ALobbyGameMode_Statics:
 };
 void ALobbyGameMode::StaticRegisterNativesALobbyGameMode()
 {
+	UClass* Class = ALobbyGameMode::StaticClass();
+	FNativeFunctionRegistrar::RegisterFunctions(Class, MakeConstArrayView(Z_Construct_UClass_ALobbyGameMode_Statics::Funcs));
 }
 UClass* Z_Construct_UClass_ALobbyGameMode()
 {
@@ -110,10 +189,10 @@ ALobbyGameMode::~ALobbyGameMode() {}
 struct Z_CompiledInDeferFile_FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_Contents_LobbyGameMode_h__Script_LastManStanding_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ALobbyGameMode, ALobbyGameMode::StaticClass, TEXT("ALobbyGameMode"), &Z_Registration_Info_UClass_ALobbyGameMode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ALobbyGameMode), 3433991343U) },
+		{ Z_Construct_UClass_ALobbyGameMode, ALobbyGameMode::StaticClass, TEXT("ALobbyGameMode"), &Z_Registration_Info_UClass_ALobbyGameMode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ALobbyGameMode), 3507389855U) },
 	};
 }; // Z_CompiledInDeferFile_FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_Contents_LobbyGameMode_h__Script_LastManStanding_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_Contents_LobbyGameMode_h__Script_LastManStanding_102157440{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_Contents_LobbyGameMode_h__Script_LastManStanding_593919116{
 	TEXT("/Script/LastManStanding"),
 	Z_CompiledInDeferFile_FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_Contents_LobbyGameMode_h__Script_LastManStanding_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_Contents_LobbyGameMode_h__Script_LastManStanding_Statics::ClassInfo),
 	nullptr, 0,
