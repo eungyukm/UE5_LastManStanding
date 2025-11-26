@@ -7,39 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61a4ff64-2520-49d8-8778-38b23058f29b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.LastManStanding.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LastManStanding.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Lobby/BP_LobbyGameMode.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Lobby/BP_LobbyGameMode.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Lobby/BP_LobbyPlayerController.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Lobby/BP_LobbyPlayerController.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Lobby/BP_LobbyPlayerState.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Lobby/BP_LobbyPlayerState.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/ActionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/ActionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/LastManStandingEditor/Development/LastManStandingEditor.uhtmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/LastManStandingEditor/Development/LastManStandingEditor.uhtmanifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/UnrealEditor/Inc/LastManStanding/UHT/LastManStanding.init.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/UnrealEditor/Inc/LastManStanding/UHT/LastManStanding.init.gen.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/UnrealEditor/Inc/LastManStanding/UHT/LobbyGameMode.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/UnrealEditor/Inc/LastManStanding/UHT/LobbyGameMode.gen.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/UnrealEditor/Inc/LastManStanding/UHT/LobbyGameMode.generated.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/UnrealEditor/Inc/LastManStanding/UHT/LobbyGameMode.generated.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/UnrealEditor/Inc/LastManStanding/UHT/LobbyPlayerController.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/UnrealEditor/Inc/LastManStanding/UHT/LobbyPlayerController.gen.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/UnrealEditor/Inc/LastManStanding/UHT/LobbyPlayerController.generated.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/UnrealEditor/Inc/LastManStanding/UHT/LobbyPlayerController.generated.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/UnrealEditor/Inc/LastManStanding/UHT/LobbyPlayerState.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/UnrealEditor/Inc/LastManStanding/UHT/LobbyPlayerState.gen.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/UnrealEditor/Inc/LastManStanding/UHT/LobbyPlayerState.generated.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/UnrealEditor/Inc/LastManStanding/UHT/LobbyPlayerState.generated.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/UnrealEditor/Inc/LastManStanding/UHT/Timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/UnrealEditor/Inc/LastManStanding/UHT/Timestamp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/LastManStandingEditor/Development/DependencyCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/LastManStandingEditor/Development/DependencyCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/LastManStandingEditor/Development/Makefile.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/LastManStandingEditor/Development/Makefile.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/UnrealEditor/Development/LastManStanding/LobbyPlayerController.cpp.d" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/UnrealEditor/Development/LastManStanding/LobbyPlayerController.cpp.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/UnrealEditor/Development/LastManStanding/UnrealEditor-LastManStanding.dylib.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/UnrealEditor/Development/LastManStanding/UnrealEditor-LastManStanding.dylib.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/UnrealEditor/Development/LastManStanding/UnrealEditor-LastManStanding.dylib.rsp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/UnrealEditor/Development/LastManStanding/UnrealEditor-LastManStanding.dylib.rsp.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry_0.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry_0.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Mac/Stubs/arm64/Development/UnrealEditor-LastManStanding.dylib.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Mac/Stubs/arm64/Development/UnrealEditor-LastManStanding.dylib.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Mac/Stubs/arm64/Development/UnrealEditor-LastManStanding.dylib.rsp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Mac/Stubs/arm64/Development/UnrealEditor-LastManStanding.dylib.rsp.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/MacEditor/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/MacEditor/EditorPerProjectUserSettings.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/MacEditor/Engine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/MacEditor/Engine.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/LastManStanding/Lobby/Contents/LobbyGameMode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LastManStanding/Lobby/Contents/LobbyGameMode.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/LastManStanding/Lobby/Contents/LobbyGameMode.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LastManStanding/Lobby/Contents/LobbyGameMode.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/LastManStanding/Lobby/Contents/LobbyPlayerController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LastManStanding/Lobby/Contents/LobbyPlayerController.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/LastManStanding/Lobby/Contents/LobbyPlayerController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LastManStanding/Lobby/Contents/LobbyPlayerController.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/LastManStanding/Lobby/Contents/LobbyPlayerState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LastManStanding/Lobby/Contents/LobbyPlayerState.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/LastManStanding/Lobby/Contents/LobbyPlayerState.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LastManStanding/Lobby/Contents/LobbyPlayerState.h" afterDir="false" />
-    </list>
+    <list default="true" id="61a4ff64-2520-49d8-8778-38b23058f29b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,7 +48,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "Uproject.LastManStanding.executor": "Run",
-    "git-widget-placeholder": "v0.3.2",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
