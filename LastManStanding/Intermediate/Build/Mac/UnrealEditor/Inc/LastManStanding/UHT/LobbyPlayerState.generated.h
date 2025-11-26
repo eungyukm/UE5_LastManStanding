@@ -17,6 +17,12 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Class ALobbyPlayerState ********************************************************
+#define FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_Contents_LobbyPlayerState_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execOnRep_NickNameChange); \
+	DECLARE_FUNCTION(execRefreshLobbyUI);
+
+
+#define FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_Contents_LobbyPlayerState_h_15_CALLBACK_WRAPPERS
 struct Z_Construct_UClass_ALobbyPlayerState_Statics;
 LASTMANSTANDING_API UClass* Z_Construct_UClass_ALobbyPlayerState_NoRegister();
 
@@ -28,7 +34,14 @@ private: \
 	friend LASTMANSTANDING_API UClass* ::Z_Construct_UClass_ALobbyPlayerState_NoRegister(); \
 public: \
 	DECLARE_CLASS2(ALobbyPlayerState, APlayerState, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/LastManStanding"), Z_Construct_UClass_ALobbyPlayerState_NoRegister) \
-	DECLARE_SERIALIZER(ALobbyPlayerState)
+	DECLARE_SERIALIZER(ALobbyPlayerState) \
+	enum class ENetFields_Private : uint16 \
+	{ \
+		NETFIELD_REP_START=(uint16)((int32)Super::ENetFields_Private::NETFIELD_REP_END + (int32)1), \
+		Ready=NETFIELD_REP_START, \
+		NickName, \
+		NETFIELD_REP_END=NickName	}; \
+	DECLARE_VALIDATE_GENERATED_REP_ENUMS(NO_API)
 
 
 #define FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_Contents_LobbyPlayerState_h_15_ENHANCED_CONSTRUCTORS \
@@ -47,6 +60,8 @@ public: \
 #define FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_Contents_LobbyPlayerState_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
+	FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_Contents_LobbyPlayerState_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_Contents_LobbyPlayerState_h_15_CALLBACK_WRAPPERS \
 	FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_Contents_LobbyPlayerState_h_15_INCLASS_NO_PURE_DECLS \
 	FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_Contents_LobbyPlayerState_h_15_ENHANCED_CONSTRUCTORS \
 private: \

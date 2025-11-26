@@ -15,9 +15,23 @@ class LASTMANSTANDING_API ALobbyPlayerState : public APlayerState
 	GENERATED_BODY()
 	
 public:
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	virtual void GetLifetimeReplicatedProps(TArray< FLifetimeProperty > & OutLifetimeProps) const override;
+
+public:
+	UFUNCTION(BlueprintImplementableEvent)
+	void BP_RefreshLobbyUI();
+	
+	UFUNCTION(BlueprintCallable)
+	void RefreshLobbyUI();
+
+private:
+	UFUNCTION()
+	void OnRep_NickNameChange();
+	
+public:
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Replicated)
 	bool Ready;
 	
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, ReplicatedUsing=OnRep_NicknameChange)
 	FText NickName;
 };
