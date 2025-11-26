@@ -131,6 +131,76 @@ DEFINE_FUNCTION(ULobbyWidget::execGetLobbyPlayerStates)
 }
 // ********** End Class ULobbyWidget Function GetLobbyPlayerStates *********************************
 
+// ********** Begin Class ULobbyWidget Function RefreshUI ******************************************
+struct Z_Construct_UFunction_ULobbyWidget_RefreshUI_Statics
+{
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Lobby/UI/LobbyWidget.h" },
+	};
+#endif // WITH_METADATA
+
+// ********** Begin Function RefreshUI constinit property declarations *****************************
+// ********** End Function RefreshUI constinit property declarations *******************************
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ULobbyWidget_RefreshUI_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_ULobbyWidget, nullptr, "RefreshUI", 	nullptr, 
+	0, 
+0,
+RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ULobbyWidget_RefreshUI_Statics::Function_MetaDataParams), Z_Construct_UFunction_ULobbyWidget_RefreshUI_Statics::Function_MetaDataParams)},  };
+UFunction* Z_Construct_UFunction_ULobbyWidget_RefreshUI()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ULobbyWidget_RefreshUI_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(ULobbyWidget::execRefreshUI)
+{
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->RefreshUI();
+	P_NATIVE_END;
+}
+// ********** End Class ULobbyWidget Function RefreshUI ********************************************
+
+// ********** Begin Class ULobbyWidget Function SetInfo ********************************************
+struct Z_Construct_UFunction_ULobbyWidget_SetInfo_Statics
+{
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Lobby/UI/LobbyWidget.h" },
+	};
+#endif // WITH_METADATA
+
+// ********** Begin Function SetInfo constinit property declarations *******************************
+// ********** End Function SetInfo constinit property declarations *********************************
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ULobbyWidget_SetInfo_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_ULobbyWidget, nullptr, "SetInfo", 	nullptr, 
+	0, 
+0,
+RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ULobbyWidget_SetInfo_Statics::Function_MetaDataParams), Z_Construct_UFunction_ULobbyWidget_SetInfo_Statics::Function_MetaDataParams)},  };
+UFunction* Z_Construct_UFunction_ULobbyWidget_SetInfo()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ULobbyWidget_SetInfo_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(ULobbyWidget::execSetInfo)
+{
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->SetInfo();
+	P_NATIVE_END;
+}
+// ********** End Class ULobbyWidget Function SetInfo **********************************************
+
 // ********** Begin Class ULobbyWidget *************************************************************
 FClassRegistrationInfo Z_Registration_Info_UClass_ULobbyWidget;
 UClass* ULobbyWidget::GetPrivateStaticClass()
@@ -212,11 +282,15 @@ struct Z_Construct_UClass_ULobbyWidget_Statics
 	static constexpr UE::CodeGen::FClassNativeFunction Funcs[] = {
 		{ .NameUTF8 = UTF8TEXT("GetLobbyPlayerStateAtIndex"), .Pointer = &ULobbyWidget::execGetLobbyPlayerStateAtIndex },
 		{ .NameUTF8 = UTF8TEXT("GetLobbyPlayerStates"), .Pointer = &ULobbyWidget::execGetLobbyPlayerStates },
+		{ .NameUTF8 = UTF8TEXT("RefreshUI"), .Pointer = &ULobbyWidget::execRefreshUI },
+		{ .NameUTF8 = UTF8TEXT("SetInfo"), .Pointer = &ULobbyWidget::execSetInfo },
 	};
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
 		{ &Z_Construct_UFunction_ULobbyWidget_GetLobbyPlayerStateAtIndex, "GetLobbyPlayerStateAtIndex" }, // 3508575798
 		{ &Z_Construct_UFunction_ULobbyWidget_GetLobbyPlayerStates, "GetLobbyPlayerStates" }, // 1777792653
+		{ &Z_Construct_UFunction_ULobbyWidget_RefreshUI, "RefreshUI" }, // 3522876666
+		{ &Z_Construct_UFunction_ULobbyWidget_SetInfo, "SetInfo" }, // 2263635554
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -284,10 +358,10 @@ ULobbyWidget::~ULobbyWidget() {}
 struct Z_CompiledInDeferFile_FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_UI_LobbyWidget_h__Script_LastManStanding_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ULobbyWidget, ULobbyWidget::StaticClass, TEXT("ULobbyWidget"), &Z_Registration_Info_UClass_ULobbyWidget, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ULobbyWidget), 3697002129U) },
+		{ Z_Construct_UClass_ULobbyWidget, ULobbyWidget::StaticClass, TEXT("ULobbyWidget"), &Z_Registration_Info_UClass_ULobbyWidget, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ULobbyWidget), 5646009U) },
 	};
 }; // Z_CompiledInDeferFile_FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_UI_LobbyWidget_h__Script_LastManStanding_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_UI_LobbyWidget_h__Script_LastManStanding_2107690814{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_UI_LobbyWidget_h__Script_LastManStanding_4079858355{
 	TEXT("/Script/LastManStanding"),
 	Z_CompiledInDeferFile_FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_UI_LobbyWidget_h__Script_LastManStanding_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_UI_LobbyWidget_h__Script_LastManStanding_Statics::ClassInfo),
 	nullptr, 0,

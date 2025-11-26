@@ -20,7 +20,9 @@ class ALobbyPlayerState;
 // ********** Begin Class ULobbyWidget *************************************************************
 #define FID_eungyukim_Documents_GitHub_UE5_LastManStanding_LastManStanding_Source_LastManStanding_Lobby_UI_LobbyWidget_h_21_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execGetLobbyPlayerStateAtIndex); \
-	DECLARE_FUNCTION(execGetLobbyPlayerStates);
+	DECLARE_FUNCTION(execGetLobbyPlayerStates); \
+	DECLARE_FUNCTION(execRefreshUI); \
+	DECLARE_FUNCTION(execSetInfo);
 
 
 struct Z_Construct_UClass_ULobbyWidget_Statics;
