@@ -1,0 +1,151 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "/Users/Shared/Epic Games/UE_5.7/Engine/Intermediate/Build/BuildRulesProjects/MarketplaceRules/MarketplaceRules.csproj",
+      "/Users/Shared/Epic Games/UE_5.7/Engine/Intermediate/Build/BuildRulesProjects/UE5ProgramRules/UE5ProgramRules.csproj",
+      "/Users/Shared/Epic Games/UE_5.7/Engine/Intermediate/Build/BuildRulesProjects/UE5Rules/UE5Rules.csproj",
+      "/Users/Shared/Epic Games/UE_5.7/Engine/Source/Programs/Shared/EpicGames.Build/EpicGames.Build.csproj",
+      "/Users/Shared/Epic Games/UE_5.7/Engine/Source/Programs/UnrealBuildTool/UnrealBuildTool.csproj"
+    ]
+  },
+  "packageFolders": {
+    "/Users/eungyukim/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/eungyukim/Documents/GitHub/UE5_LastManStanding/LastManStanding/Intermediate/Build/BuildRulesProjects/LastManStandingModuleRules/LastManStandingModuleRules.csproj",
+      "projectName": "LastManStandingModuleRules",
+      "projectPath": "/Users/eungyukim/Documents/GitHub/UE5_LastManStanding/LastManStanding/Intermediate/Build/BuildRulesProjects/LastManStandingModuleRules/LastManStandingModuleRules.csproj",
+      "packagesPath": "/Users/eungyukim/.nuget/packages/",
+      "outputPath": "/Users/eungyukim/Documents/GitHub/UE5_LastManStanding/LastManStanding/Intermediate/Build/BuildRulesProjects/LastManStandingModuleRules/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/eungyukim/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "/Users/Shared/Epic Games/UE_5.7/Engine/Intermediate/Build/BuildRulesProjects/MarketplaceRules/MarketplaceRules.csproj": {
+              "projectPath": "/Users/Shared/Epic Games/UE_5.7/Engine/Intermediate/Build/BuildRulesProjects/MarketplaceRules/MarketplaceRules.csproj"
+            },
+            "/Users/Shared/Epic Games/UE_5.7/Engine/Intermediate/Build/BuildRulesProjects/UE5ProgramRules/UE5ProgramRules.csproj": {
+              "projectPath": "/Users/Shared/Epic Games/UE_5.7/Engine/Intermediate/Build/BuildRulesProjects/UE5ProgramRules/UE5ProgramRules.csproj"
+            },
+            "/Users/Shared/Epic Games/UE_5.7/Engine/Intermediate/Build/BuildRulesProjects/UE5Rules/UE5Rules.csproj": {
+              "projectPath": "/Users/Shared/Epic Games/UE_5.7/Engine/Intermediate/Build/BuildRulesProjects/UE5Rules/UE5Rules.csproj"
+            },
+            "/Users/Shared/Epic Games/UE_5.7/Engine/Source/Programs/Shared/EpicGames.Build/EpicGames.Build.csproj": {
+              "projectPath": "/Users/Shared/Epic Games/UE_5.7/Engine/Source/Programs/Shared/EpicGames.Build/EpicGames.Build.csproj"
+            },
+            "/Users/Shared/Epic Games/UE_5.7/Engine/Source/Programs/UnrealBuildTool/UnrealBuildTool.csproj": {
+              "projectPath": "/Users/Shared/Epic Games/UE_5.7/Engine/Source/Programs/UnrealBuildTool/UnrealBuildTool.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "all"
+      },
+      "SdkAnalysisLevel": "9.0.100"
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.11, 8.0.11]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.11, 8.0.11]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/Users/eungyukim/.dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for '/Users/Shared/Epic Games/UE_5.7/Engine/Intermediate/Build/BuildRulesProjects/MarketplaceRules/MarketplaceRules.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "/Users/Shared/Epic Games/UE_5.7/Engine/Intermediate/Build/BuildRulesProjects/MarketplaceRules/MarketplaceRules.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for '/Users/Shared/Epic Games/UE_5.7/Engine/Intermediate/Build/BuildRulesProjects/UE5ProgramRules/UE5ProgramRules.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "/Users/Shared/Epic Games/UE_5.7/Engine/Intermediate/Build/BuildRulesProjects/UE5ProgramRules/UE5ProgramRules.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for '/Users/Shared/Epic Games/UE_5.7/Engine/Intermediate/Build/BuildRulesProjects/UE5Rules/UE5Rules.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "/Users/Shared/Epic Games/UE_5.7/Engine/Intermediate/Build/BuildRulesProjects/UE5Rules/UE5Rules.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for '/Users/Shared/Epic Games/UE_5.7/Engine/Source/Programs/Shared/EpicGames.Build/EpicGames.Build.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "/Users/Shared/Epic Games/UE_5.7/Engine/Source/Programs/Shared/EpicGames.Build/EpicGames.Build.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for '/Users/Shared/Epic Games/UE_5.7/Engine/Source/Programs/UnrealBuildTool/UnrealBuildTool.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "/Users/Shared/Epic Games/UE_5.7/Engine/Source/Programs/UnrealBuildTool/UnrealBuildTool.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

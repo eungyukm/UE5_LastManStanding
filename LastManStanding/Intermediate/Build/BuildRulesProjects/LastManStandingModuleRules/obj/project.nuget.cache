@@ -1,0 +1,67 @@
+{
+  "version": 2,
+  "dgSpecHash": "LsOhkVNhEvc=",
+  "success": false,
+  "projectFilePath": "/Users/eungyukim/Documents/GitHub/UE5_LastManStanding/LastManStanding/Intermediate/Build/BuildRulesProjects/LastManStandingModuleRules/LastManStandingModuleRules.csproj",
+  "expectedPackageFiles": [
+    "/Users/eungyukim/.nuget/packages/microsoft.netcore.app.ref/8.0.11/microsoft.netcore.app.ref.8.0.11.nupkg.sha512",
+    "/Users/eungyukim/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.11/microsoft.aspnetcore.app.ref.8.0.11.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for '/Users/Shared/Epic Games/UE_5.7/Engine/Intermediate/Build/BuildRulesProjects/MarketplaceRules/MarketplaceRules.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "projectPath": "/Users/eungyukim/Documents/GitHub/UE5_LastManStanding/LastManStanding/Intermediate/Build/BuildRulesProjects/LastManStandingModuleRules/LastManStandingModuleRules.csproj",
+      "filePath": "/Users/eungyukim/Documents/GitHub/UE5_LastManStanding/LastManStanding/Intermediate/Build/BuildRulesProjects/LastManStandingModuleRules/LastManStandingModuleRules.csproj",
+      "libraryId": "/Users/Shared/Epic Games/UE_5.7/Engine/Intermediate/Build/BuildRulesProjects/MarketplaceRules/MarketplaceRules.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for '/Users/Shared/Epic Games/UE_5.7/Engine/Intermediate/Build/BuildRulesProjects/UE5ProgramRules/UE5ProgramRules.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "projectPath": "/Users/eungyukim/Documents/GitHub/UE5_LastManStanding/LastManStanding/Intermediate/Build/BuildRulesProjects/LastManStandingModuleRules/LastManStandingModuleRules.csproj",
+      "filePath": "/Users/eungyukim/Documents/GitHub/UE5_LastManStanding/LastManStanding/Intermediate/Build/BuildRulesProjects/LastManStandingModuleRules/LastManStandingModuleRules.csproj",
+      "libraryId": "/Users/Shared/Epic Games/UE_5.7/Engine/Intermediate/Build/BuildRulesProjects/UE5ProgramRules/UE5ProgramRules.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for '/Users/Shared/Epic Games/UE_5.7/Engine/Intermediate/Build/BuildRulesProjects/UE5Rules/UE5Rules.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "projectPath": "/Users/eungyukim/Documents/GitHub/UE5_LastManStanding/LastManStanding/Intermediate/Build/BuildRulesProjects/LastManStandingModuleRules/LastManStandingModuleRules.csproj",
+      "filePath": "/Users/eungyukim/Documents/GitHub/UE5_LastManStanding/LastManStanding/Intermediate/Build/BuildRulesProjects/LastManStandingModuleRules/LastManStandingModuleRules.csproj",
+      "libraryId": "/Users/Shared/Epic Games/UE_5.7/Engine/Intermediate/Build/BuildRulesProjects/UE5Rules/UE5Rules.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for '/Users/Shared/Epic Games/UE_5.7/Engine/Source/Programs/Shared/EpicGames.Build/EpicGames.Build.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "projectPath": "/Users/eungyukim/Documents/GitHub/UE5_LastManStanding/LastManStanding/Intermediate/Build/BuildRulesProjects/LastManStandingModuleRules/LastManStandingModuleRules.csproj",
+      "filePath": "/Users/eungyukim/Documents/GitHub/UE5_LastManStanding/LastManStanding/Intermediate/Build/BuildRulesProjects/LastManStandingModuleRules/LastManStandingModuleRules.csproj",
+      "libraryId": "/Users/Shared/Epic Games/UE_5.7/Engine/Source/Programs/Shared/EpicGames.Build/EpicGames.Build.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for '/Users/Shared/Epic Games/UE_5.7/Engine/Source/Programs/UnrealBuildTool/UnrealBuildTool.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "projectPath": "/Users/eungyukim/Documents/GitHub/UE5_LastManStanding/LastManStanding/Intermediate/Build/BuildRulesProjects/LastManStandingModuleRules/LastManStandingModuleRules.csproj",
+      "filePath": "/Users/eungyukim/Documents/GitHub/UE5_LastManStanding/LastManStanding/Intermediate/Build/BuildRulesProjects/LastManStandingModuleRules/LastManStandingModuleRules.csproj",
+      "libraryId": "/Users/Shared/Epic Games/UE_5.7/Engine/Source/Programs/UnrealBuildTool/UnrealBuildTool.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

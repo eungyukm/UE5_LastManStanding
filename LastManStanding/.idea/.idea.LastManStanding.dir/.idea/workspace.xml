@@ -7,7 +7,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61a4ff64-2520-49d8-8778-38b23058f29b" name="Changes" comment="" />
+    <list default="true" id="61a4ff64-2520-49d8-8778-38b23058f29b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/LastManStandingEditor/Development/Core/SharedPCH.Core.Cpp20.h.gch.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/LastManStandingEditor/Development/Core/SharedPCH.Core.Cpp20.h.gch.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/LastManStandingEditor/Development/Core/SharedPCH.Core.Cpp20.h.gch.rsp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/LastManStandingEditor/Development/Core/SharedPCH.Core.Cpp20.h.gch.rsp.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/LastManStandingEditor/Development/Core/SharedPCH.Core.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.gch.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/LastManStandingEditor/Development/Core/SharedPCH.Core.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.gch.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/LastManStandingEditor/Development/Core/SharedPCH.Core.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.gch.rsp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/LastManStandingEditor/Development/Core/SharedPCH.Core.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.gch.rsp.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/LastManStandingEditor/Development/Core/SharedPCH.Core.RTTI.Cpp20.h.gch.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/LastManStandingEditor/Development/Core/SharedPCH.Core.RTTI.Cpp20.h.gch.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/LastManStandingEditor/Development/Core/SharedPCH.Core.RTTI.Cpp20.h.gch.rsp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/LastManStandingEditor/Development/Core/SharedPCH.Core.RTTI.Cpp20.h.gch.rsp.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/LastManStandingEditor/Development/CoreUObject/SharedPCH.CoreUObject.Cpp20.h.gch.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/LastManStandingEditor/Development/CoreUObject/SharedPCH.CoreUObject.Cpp20.h.gch.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/LastManStandingEditor/Development/CoreUObject/SharedPCH.CoreUObject.Cpp20.h.gch.rsp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/LastManStandingEditor/Development/CoreUObject/SharedPCH.CoreUObject.Cpp20.h.gch.rsp.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/LastManStandingEditor/Development/CoreUObject/SharedPCH.CoreUObject.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.gch.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/LastManStandingEditor/Development/CoreUObject/SharedPCH.CoreUObject.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.gch.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/LastManStandingEditor/Development/CoreUObject/SharedPCH.CoreUObject.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.gch.rsp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/LastManStandingEditor/Development/CoreUObject/SharedPCH.CoreUObject.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.gch.rsp.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/LastManStandingEditor/Development/CoreUObject/SharedPCH.CoreUObject.RTTI.Cpp20.h.gch.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/LastManStandingEditor/Development/CoreUObject/SharedPCH.CoreUObject.RTTI.Cpp20.h.gch.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/LastManStandingEditor/Development/CoreUObject/SharedPCH.CoreUObject.RTTI.Cpp20.h.gch.rsp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/LastManStandingEditor/Development/CoreUObject/SharedPCH.CoreUObject.RTTI.Cpp20.h.gch.rsp.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/LastManStandingEditor/Development/Engine/SharedPCH.Engine.Cpp20.h.gch.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/LastManStandingEditor/Development/Engine/SharedPCH.Engine.Cpp20.h.gch.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/LastManStandingEditor/Development/Engine/SharedPCH.Engine.Cpp20.h.gch.rsp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/LastManStandingEditor/Development/Engine/SharedPCH.Engine.Cpp20.h.gch.rsp.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/LastManStandingEditor/Development/Engine/SharedPCH.Engine.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.gch.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/LastManStandingEditor/Development/Engine/SharedPCH.Engine.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.gch.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/LastManStandingEditor/Development/Engine/SharedPCH.Engine.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.gch.rsp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/LastManStandingEditor/Development/Engine/SharedPCH.Engine.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.gch.rsp.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/LastManStandingEditor/Development/Slate/SharedPCH.Slate.Cpp20.h.gch.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/LastManStandingEditor/Development/Slate/SharedPCH.Slate.Cpp20.h.gch.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/LastManStandingEditor/Development/Slate/SharedPCH.Slate.Cpp20.h.gch.rsp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/LastManStandingEditor/Development/Slate/SharedPCH.Slate.Cpp20.h.gch.rsp.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/LastManStandingEditor/Development/Slate/SharedPCH.Slate.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.gch.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/LastManStandingEditor/Development/Slate/SharedPCH.Slate.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.gch.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/LastManStandingEditor/Development/Slate/SharedPCH.Slate.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.gch.rsp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/LastManStandingEditor/Development/Slate/SharedPCH.Slate.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.gch.rsp.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/LastManStandingEditor/Development/UnrealEd/SharedPCH.UnrealEd.Cpp20.h.gch.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/LastManStandingEditor/Development/UnrealEd/SharedPCH.UnrealEd.Cpp20.h.gch.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/LastManStandingEditor/Development/UnrealEd/SharedPCH.UnrealEd.Cpp20.h.gch.rsp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/LastManStandingEditor/Development/UnrealEd/SharedPCH.UnrealEd.Cpp20.h.gch.rsp.old" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,22 +65,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "Uproject.LastManStanding.executor": "Run",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Protocol Buffer Text",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Uproject.LastManStanding.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Protocol Buffer Text&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="LastManStanding" type="Uproject" factoryName="rider.uproject">
       <configuration_1 setup="1">
@@ -143,6 +166,7 @@
       <updated>1763989359888</updated>
       <workItem from="1763989361863" duration="796000" />
       <workItem from="1764072465030" duration="18248000" />
+      <workItem from="1764151699000" duration="62000" />
     </task>
     <servers />
   </component>
